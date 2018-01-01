@@ -1,0 +1,10 @@
+hash: dd496cca9c6cb712944143c6511b955bbc80125ab535a16263e89a4389c6d2c3
+updated: 2017-12-28T14:17:46.074107+08:00
+imports:
+- name: github.com/shopspring/decimal
+  version: 9ca7f51822d222ae4e246f070f9aad863599bd1a
+- name: github.com/stretchr/testify
+  version: 69483b4bd14f5845b5a1e55bca19e954e827f1d0
+  subpackages:
+  - require
+testImports: []
