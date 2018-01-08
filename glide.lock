@@ -1,10 +1,19 @@
-hash: dd496cca9c6cb712944143c6511b955bbc80125ab535a16263e89a4389c6d2c3
-updated: 2017-12-28T14:17:46.074107+08:00
+hash: deb770d54b6f2f282cbfa810101a2dc107d57eeef4ca8a950ca98d9ff4c56474
+updated: 2018-01-08T12:29:14.586972+09:00
 imports:
 - name: github.com/shopspring/decimal
-  version: 9ca7f51822d222ae4e246f070f9aad863599bd1a
+  version: 8dffa2b7c7022feee4e1f55180695e79ca4261d4
 - name: github.com/stretchr/testify
-  version: 69483b4bd14f5845b5a1e55bca19e954e827f1d0
+  version: b91bfb9ebec76498946beb6af7c0230c7cc7ba6c
   subpackages:
+  - assert
   - require
-testImports: []
+testImports:
+- name: github.com/davecgh/go-spew
+  version: 6d212800a42e8ab5c146b8ace3490ee17e5225f9
+  subpackages:
+  - spew
+- name: github.com/pmezard/go-difflib
+  version: d8ed2627bdf02c080bf22230dbb337003b7aba2d
+  subpackages:
+  - difflib
